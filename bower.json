@@ -1,0 +1,28 @@
+{
+  "name": "wab",
+  "version": "1.0.0",
+  "homepage": "https://github.com/victormelnyk/angular_base",
+  "authors": [
+    "Victor Melnyk"
+  ],
+  "description": "Web Aplication Base",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-ui-bootstrap-bower": "~0.13.4"
+  }
+}
