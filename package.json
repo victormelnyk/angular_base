@@ -1,7 +1,7 @@
 {
   "name": "wab",
   "version": "1.0.0",
-  "description": "Web Aplication Base",
+  "description": "Web Application Base",
   "main": "index.html",
   "scripts": {
     "preinstall": "npm install -g grunt-cli bower karma-cli jscs",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/victormelnyk/angular_base.git"
+    "url": "https://github.com/victormelnyk/web_app_base.git"
   },
   "keywords": [
     "angular"
@@ -19,9 +19,9 @@
   "author": "Victor Melnyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/victormelnyk/angular_base/issues"
+    "url": "https://github.com/victormelnyk/web_app_base/issues"
   },
-  "homepage": "https://github.com/victormelnyk/angular_base",
+  "homepage": "https://github.com/victormelnyk/web_app_base",
   "devDependencies": {
     "bower": "^1.5.2",
     "grunt": "^0.4.5",

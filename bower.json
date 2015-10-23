@@ -1,11 +1,11 @@
 {
   "name": "wab",
   "version": "1.0.0",
-  "homepage": "https://github.com/victormelnyk/angular_base",
+  "homepage": "https://github.com/victormelnyk/web_app_base",
   "authors": [
     "Victor Melnyk"
   ],
-  "description": "Web Aplication Base",
+  "description": "Web Application Base",
   "main": "index.html",
   "moduleType": [
     "globals"
@@ -23,6 +23,8 @@
   ],
   "dependencies": {
     "angular": "~1.4.6",
-    "angular-ui-bootstrap-bower": "~0.13.4"
+    "angular-bootstrap": "~0.14.2",
+    "angular-ui-bootstrap": "~0.14.2",
+    "bootstrap": "~3.3.5"
   }
 }
