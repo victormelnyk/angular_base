@@ -1,0 +1,62 @@
+{
+  "bitwise":       true,
+  "camelcase":     true,
+  "curly":         true,
+  "eqeqeq":        true,
+  "es3":           true,
+  "forin":         false,
+  "freeze":        true,
+  "funcscope":     true,
+  "futurehostile": true,
+  "globalstrict":  false, //! use strict added automatically during build process
+  "iterator":      true,
+  "latedef":       false, //!! set to true, check wornings
+  "maxcomplexity": 50,//!! try set 30
+  "maxdepth":      3,//!! try set 2
+  "maxerr":        10,
+  "maxparams":     12,
+  "maxstatements": 80, //!!- try to set 10, problem with big classes
+  "noarg":         true,
+  "nocomma":       true,
+  "nonbsp":        true,
+  "nonew":         true,
+  "notypeof":      true,
+  "quotmark":      "single",
+  "shadow":        "inner",
+  "singleGroups":  false, //!! set to true, investagate
+  "undef":         true,
+  "sub":           true,
+  "supernew":      true,
+  "validthis":     true,
+  "withstmt":      true,
+
+  "globals": {
+    "alert":          false,
+    "Blob":           false,
+    "clearInterval":  false,
+    "confirm":        false,
+    "console":        false,
+    "document":       false,
+    "JSON":           false,
+    "localStorage":   false,
+    "location":       false,
+    "navigator":      false,
+    "prompt":         false,
+    "setInterval":    false,
+    "setTimeout":     false,
+    "WebSocket":      false,
+    "window":         false,
+    "XMLHttpRequest": false,
+
+    "afterAll":       false,
+    "angular":        false,
+    "beforeAll":      false,
+    "beforeEach":     false,
+    "describe":       false,
+    "expect":         false,
+    "it":             false,
+    "module":         false,
+    "require":        false,
+    "tv4":            false
+  }
+}

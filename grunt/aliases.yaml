@@ -1,0 +1,35 @@
+default:
+  description: 'Default (development) build'
+  tasks:
+    - dev
+dev:
+  description: 'Development build'
+  tasks:
+    - 'concurrent:dev1'
+    - 'concurrent:dev2'
+    - 'concurrent:dev3'
+devJs:
+  description: 'Development build (only js)'
+  tasks:
+    - 'concurrent:devJs1'
+    - 'concurrent:devJs2'
+prod:
+  description: 'Production build'
+  tasks:
+    - 'concurrent:prod1'
+    - 'concurrent:prod2'
+    - 'concurrent:prod3'
+prodTest:
+  description: 'Production build (without js minify)'
+  tasks:
+    - 'concurrent:prod1'
+    - 'concurrent:prodTest2'
+    - 'concurrent:prod3'
+devWatch:
+  description: 'Development watch'
+  tasks:
+    - 'watch'
+test:
+  description: 'Test'
+  tasks:
+    - 'karma'

@@ -1,0 +1,41 @@
+{
+  "preset": "google",
+  //! google overides
+  "requireLineFeedAtFileEnd": null,
+  "maximumLineLength": {
+    "value": 100,//!! try set to 80
+    "allowComments": true//!!delete?
+  },
+  "disallowMultipleVarDecl": null,
+
+  //! new
+  "disallowCapitalizedComments": true,
+  "disallowDanglingUnderscores": {
+    "allExcept": ["true_", "false_", "private_", "public_", "in_"]
+  },
+  //!!"disallowEmptyBlocks": true
+  "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
+  "disallowMixedSpacesAndTabs": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowMultipleLineStrings": true,
+  //!!"disallowMultipleSpaces": true
+  "disallowNewlineBeforeBlockStatements": true,
+  /*!!"disallowPaddingNewlinesBeforeKeywords": [
+    "do",
+    "for",
+    "if",
+    "else",
+    "switch",
+    "case",
+    "try",
+    "catch",
+    "void",
+    "while",
+    "with",
+    "return",
+    "typeof",
+    "function"
+  ]*/
+  //"disallowPaddingNewLinesBeforeLineComments": true
+  "requirePaddingNewLinesInObjects": true
+}
