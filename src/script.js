@@ -1,3 +1,3 @@
-function testFunc() {
-  alert('test');
-}
+window.testFunc = function() {
+  alert('Test');
+};
